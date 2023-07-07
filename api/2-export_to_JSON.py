@@ -53,4 +53,4 @@ if __name__ == "__main__":
         export to JSON
     """
     with open('{}.json'.format(argv[1]), mode='w') as file:
-        json.dump(json_to_dump, fil
+        json.dump(json_to_dump, file)
